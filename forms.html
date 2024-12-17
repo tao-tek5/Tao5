@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tao5 Form</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles-mobile.css"> 
+</head>
+<body class="body">
+    
+    <br>
+    <div class="imgL">
+        <a href="https://taostats.io/" class="top-link" target="_blank">Stake with us</a>
+        <br>
+        <a href="index.html">
+            <img src="assets/imgs/Tao5.png" alt="Tao5">
+        </a>
+    </div>
+    <form action="https://formspree.io/f/xeoqwvay" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"  required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"  required>
+
+        <label for="twitter">Twitter:</label>
+        <input type="text" id="twitter" name="twitter" >
+
+        <label class="labelL" for="message">Tell us about your subnet:</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <label class="labelL" for="github">Links to any GitHub repositories:</label>
+        <textarea id="github" name="github" rows="2"></textarea>
+
+        <label class="labelL" for="docs">Links to any other documentation:</label>
+        <textarea id="docs" name="docs" rows="2"></textarea>
+
+        <button type="submit">Submit</button>
+        <a class="back" href="index.html">Go back</a>
+    </form>
+</body>
+</html>
